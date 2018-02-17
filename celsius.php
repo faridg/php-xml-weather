@@ -12,5 +12,8 @@
 	echo $xml->city['name'];
 	echo $xml->weather['value'];
 	echo $xml->temperature['value'];
+	echo $xml->temperature['unit'];
+	echo $xml->wind->speed['name'];
+	echo $xml->humidity['value'];
 
 ?>
